@@ -1,3 +1,4 @@
+
 language: node_js
 node_js: node
 services:
@@ -6,7 +7,7 @@ deploy:
   provider: heroku
   api_key:
     secure: F3cgxlNFJXBhRUsp/NfnCAo1RosLGnsXcany37R23p5/konjiOWbPkzi7kPT8/4ejRRhWMmnHiX7SFoV0a9JH4waZvwHYFzcbCRDiZZ55kmxmCBrnhV+9JixU7FrLvYyWDR3+BVX56g4J1wFIm72KCMPfzZm3hu1S6IEU+xbSWJWg5jbRZtMxdXZp2EEEEDlUOkIR4O/PLFgIoUgSvmoC2bU9PR8i3QxrCz6P41JbsPOS88t1IFmMnLkC1I71tk/C2WZ9XY1+FbC01+ifiZvFlvYtbh8Y2izmMRUYqM2W9r+E8ILMOaOruEr9CdUicNW4YEVnYXcKowQP2sKfPet59niv3gSq31vFrurUnhhEI0ZYLorktb2wV8ob/pVrNut+6G46PjHPpY/a8dIcsXbaKXG6nC8OtFldaRdukAqEd3fzG5HTLH0M5XOg+t56ozf/dFeVSIcoDpHqz74wY36MxYNIXRELczmEmTJaNsIscd+JgO9o0iGz6MqkXb8EnHS7vqrX48uo6LqVkWA7sOEBuErdEb5va3gtFIV88jFmbNFP3RhGU2zDp/cr3riZFQwv1uqY8X0Puq3zaK/9sqQtu08JgxMZuCJvVVNBCoei2+ae6BP/nqJTbs10q9Hx/bGbvei/6lsvCAWWtwRTJtqqdtWmvJpXotHAsEHzNH+Nhg=
-  app: node-restaurants-app-mongoose
+  app: https://young-waters-75562.herokuapp.com/
   on:
     repo: SMuyesser/node-restaurants-app-mongoose
     branch: feature/with-tests
